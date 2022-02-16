@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Day 10 Home Challenge (final-project prep)</title>
+    
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="css/contact.css">
+        </head>
+    
+    <!-- Adapted from https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- 2-10-22 4:47 PM -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <body>
+        <ul>
+
+            <li>
+                <a class="active" href="contact.html">Contact</a>
+            </li>
+
+            <li>
+                <a href="about.html">About</a>
+            </li>
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+                <li class="icon"><img src="images/wp-favicon-d5.png" alt="School Advisor 26 logo">
+            </li>
+        </ul>
+        
+        <nav class="longbox">
+            <h3>Blog: <a href="https://wordpress.com/">https://wordpress.com/</a></h3> 
+            <h3>Fictitious Phone Number: <mark>1-800-555-5555</mark> / Fictitious Email: <mark>billgates@microsoft.com</mark></h3> 
+            <h3>Sample code taken from: <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form">https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form</a></h3>
+        </nav>
+            <!-- </header> -->
+
+    <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="os">OS</label>
+          <select id="os" name="os">
+            <option value="Windows">Windows</option>
+            <option value="mac">Mac</option>
+            <option value="Linux">Linux</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</body>

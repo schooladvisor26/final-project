@@ -1,0 +1,103 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #880015;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Change the link color to #5F9EA0 (cadet blue) on hover. 2-13-22 No longer using cadet blue much. */
+
+li a:hover {
+    background-color: #5F9EA0;
+}
+
+li a:hover:not(.active) {
+    background-color: #5F9EA0;
+  }
+  
+/* Attempt to add an active class to the current link. */
+li .active {
+    background-color: #5F9EA0;
+  }
+
+
+/* Code from StackOverflow 
+https://stackoverflow.com/questions/48898770/active-current-navigation-link-not-working/48898939 */
+  div.menuBar li.active a { color: #FF0000; } 
+
+  li.active { background-color: #5F9EA0; 
+}
+
+/* Code from Day 4 Daily Challenge */
+img {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* https://www.w3schools.com/tags/tag_footer.asp */
+/* footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #880015;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+} */
+
+   /*
+  university-of-mobile-ZPkG0EdWQa8-unsplash.jpg
+        Type: jpeg
+    width 5151px
+    height 3434 px
+*/ 
+
+
+.textShadow{
+  text-shadow: 2px 2px #5F9EA0, 5px 5px 10px #880015;
+}
+/*Image dimensions:
+    wander-fleur-1lmGTHdQdjM-unsplash
+    1920px
+    1280px */
+.heroimage {
+  height: 96vw;
+  width: 96vw;
+  border: #880015 solid 4px;
+  background-image: url('../images/wander-fleur-1lmGTHdQdjM-unsplash.jpg');
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #5F9EA0;
+  color: white;
+}
+
+p {
+  font-family: 'Ubuntu Mono', monospace;
+}

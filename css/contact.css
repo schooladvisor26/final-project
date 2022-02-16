@@ -1,0 +1,94 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #880015;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Change the link color to #5F9EA0 (cadet blue) on hover */
+
+li a:hover {
+    background-color: #5F9EA0;
+}
+
+/* Attempt to add an active class to the current link. */
+li .active {
+    background-color: #5F9EA0;
+  }
+/* Code from StackOverflow 
+https://stackoverflow.com/questions/48898770/active-current-navigation-link-not-working/48898939 */
+
+div.menuBar li.active a { color: #FF0000; } 
+
+li.active { background-color: #5F9EA0; 
+}
+
+/* Code from Day 4 Daily Challenge */
+img {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.longbox {
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+label {
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+}
