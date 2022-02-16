@@ -101,3 +101,10 @@ footer {
 p {
   font-family: 'Ubuntu Mono', monospace;
 }
+
+.sidequote {
+    border: 2px solid black;
+    width: 35vw;
+    height: 300px;
+    float: right;
+}
