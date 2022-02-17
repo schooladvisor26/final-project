@@ -26,6 +26,13 @@ li a:hover {
     background-color: #5F9EA0;
 }
 
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #5F9EA0;
+    color: white;
+}
+
 /* Attempt to add an active class to the current link. */
 li .active {
     background-color: #5F9EA0;
@@ -90,5 +97,9 @@ input[type=submit]:hover {
 
 label {
     font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+p {
     font-family: 'Ubuntu Mono', monospace;
 }
