@@ -96,6 +96,8 @@ footer {
   padding: 3px;
   background-color: #5F9EA0;
   color: white;
+  clear: both; /* This forces the footer to sit BELOW any floated sidequotes */
+    display: block;
 }
 
 p {
