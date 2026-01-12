@@ -8,10 +8,9 @@ for a **BitWise Workforce Training** virtual class in early 2022.
 ## 🛠️ Built With
 * **HTML5** - Semantic structure.
 * **CSS3** - Custom styling and responsive layouts.
-* **JavaScript** - Interactive elements (if applicable).
 * **Google Fonts** - Modern typography for readability.
-* 
+
 ## 🚀 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/schooladvisor26/final-project.git](https://github.com/schooladvisor26/final-project.git)
+   git clone https://github.com/schooladvisor26/final-project.git
