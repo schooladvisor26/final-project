@@ -105,6 +105,14 @@ p {
 .sidequote {
     border: 2px solid #880015;
     width: 35vw;
-    height: 300px;
+    /* height: 300px; */
+    height: auto;
     float: right;
+    padding: 2rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 800px; /* Keeps lines from getting too long and hard to read */
+    margin: 0 auto;  /* Centers the box */
 }
+
+/* Additional code for .sidequote provided by Google Gemini */
